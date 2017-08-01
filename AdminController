@@ -1,0 +1,9 @@
+@Controller
+public class AdminController{
+    private AdminService service;
+    
+    @RequestMapping("/admin")
+    public String showAdmin(){
+      return "admin";
+    }
+}
